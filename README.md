@@ -9,6 +9,12 @@ Designmodo's Flat UI, converted to Sass and ready to drop into Rails or Compass
 Before generating your application, you will need:
 
 * Ruby ~> 2.0
+* rake
+* bundler ~> 1.3
+* sass-rails ~> 4.0.0
+* sass ~> 3.2.9
+* compass ~> 0.12.2
+* bootstrap-sass ~> 2.3.2.0
 
 ## Installation
 
@@ -45,7 +51,7 @@ Once you've made your great commits:
 ## Credits
 
 - Cybele is maintained and funded by [lab2023 - internet technologies](http://lab2023.com/)
-- Thank you to all the [contributors!](https://github.com/lab2023/cybele/graphs/contributors)
+- Thank you to all the [contributors!](https://github.com/lab2023/flat-ui-sass/graphs/contributors)
 - Flat UI developed by [Designmodo](http://designmodo.github.io/Flat-UI/)
 
 ## License
