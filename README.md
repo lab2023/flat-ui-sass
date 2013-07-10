@@ -38,7 +38,7 @@ http://github.com/lab2023/flat-ui-sass/issues
 
 ## Contributing
 
-Cybele uses [SemVer](http://semver.org/), and takes it seriously.
+Flat-UI SASS uses [SemVer](http://semver.org/), and takes it seriously.
 
 Once you've made your great commits:
 
@@ -50,7 +50,7 @@ Once you've made your great commits:
 
 ## Credits
 
-- Cybele is maintained and funded by [lab2023 - internet technologies](http://lab2023.com/)
+- Flat-UI SASS is maintained and funded by [lab2023 - internet technologies](http://lab2023.com/)
 - Thank you to all the [contributors!](https://github.com/lab2023/flat-ui-sass/graphs/contributors)
 - Flat UI developed by [Designmodo](http://designmodo.github.io/Flat-UI/)
 
