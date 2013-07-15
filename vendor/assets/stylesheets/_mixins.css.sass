@@ -4,24 +4,28 @@
 
 =animation($properties)
   -webkit-animation: $properties
-    -moz-animation: $properties
-      -o-animation: $properties
-        animation: $properties
+  -moz-animation: $properties
+  -o-animation: $properties
+  animation: $properties
 
-=border-radius($radius)
-  -webkit-border-radius: $radius
-    -moz-border-radius: $radius
-      border-radius: $radius
+//border-radius removed, because we r use compass (http://compass-style.org/reference/compass/css3/border_radius)
+//=border-radius($radius)
+//  -webkit-border-radius: $radius
+//  -moz-border-radius: $radius
+//  border-radius: $radius
 
 =box-sizing($boxmodel: border-box)
   -webkit-box-sizing: $boxmodel
-    -moz-box-sizing: $boxmodel
-      box-sizing: $boxmodel
+  -moz-box-sizing: $boxmodel
+  box-sizing: $boxmodel
 
 =box-shadow($properties)
   -webkit-box-shadow: $properties
-    -moz-box-shadow: $properties
-      box-shadow: $properties
+  -moz-box-shadow: $properties
+  box-shadow: $properties
+
+=text-shadow($properties)
+  text-shadow: $properties
 
 =inline-block()
   display: inline-block
@@ -36,10 +40,10 @@
 // For selecting text on the page
 =user-select($select)
   -webkit-user-select: $select
-    -moz-user-select: $select
-      -ms-user-select: $select
-        -o-user-select: $select
-          user-select: $select
+  -moz-user-select: $select
+  -ms-user-select: $select
+  -o-user-select: $select
+  user-select: $select
 
 =placeholder-height($height)
   &:-moz-placeholder
@@ -67,25 +71,25 @@
 
 =transition($properties)
   -webkit-transition: $properties
-    -moz-transition: $properties
-      -o-transition: $properties
-        transition: $properties
+  -moz-transition: $properties
+  -o-transition: $properties
+  transition: $properties
   -webkit-backface-visibility: hidden
 
 =transform($properties)
   -webkit-transform: $properties
-    -moz-transform: $properties
-      -ms-transform: $properties
-        -o-transform: $properties
-          transform: $properties
+  -moz-transform: $properties
+  -ms-transform: $properties
+  -o-transform: $properties
+  transform: $properties
 
 =vertical-gradient($from, $to)
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $from), color-stop(100%, $to))
   background: -webkit-linear-gradient(top, $from, $to)
-  background:    -moz-linear-gradient(top, $from, $to)
-  background:     -ms-linear-gradient(top, $from, $to)
-  background:      -o-linear-gradient(top, $from, $to)
-  background:   linear-gradient(to bottom, $from, $to)
+  background: -moz-linear-gradient(top, $from, $to)
+  background: -ms-linear-gradient(top, $from, $to)
+  background: -o-linear-gradient(top, $from, $to)
+  background: linear-gradient(to bottom, $from, $to)
 
 =selection($color)
   &::selection
@@ -160,7 +164,7 @@
 
         &:hover, &:focus
           background-color: $hover
-      
+
         &:active
           background-color: $active
 
@@ -175,7 +179,7 @@
 // Color swatches grid
 =calc-color($first-color, $second-color)
   .palette-#{$first-color}
-    background-color: "#{#{$first-color}}"
+    background-color: "#{$first-color}"
 
   .palette-#{$second-color}
-    background-color: "#{#{$second-color}}"
+    background-color: "#{$second-color}"
